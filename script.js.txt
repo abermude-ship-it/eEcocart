@@ -1,0 +1,6 @@
+// Smooth scroll to product section
+function scrollToProducts() {
+  document.getElementById("products").scrollIntoView({
+    behavior: "smooth"
+  });
+}
